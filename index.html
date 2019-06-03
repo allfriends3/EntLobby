@@ -48,6 +48,7 @@ canvas {
 
 .count-particles{
   background: #000022;
+  width : 95% ;
   position: absolute;
   top: 48px;
   left: 0;
@@ -91,7 +92,7 @@ canvas {
 
 h2 {
   font-family: "Courier" ;
-  color : red ;
+  color : #D3212D ;
 }
 
 h5 {
@@ -501,7 +502,48 @@ cursor : pointer ;
 		<body>
 <div id="particles-js">
   <div class="cont">
-   <h2>EntLobby </h2>
+   <h2 style="margin-left:5%;">EntLobby </h2><br/>
+   <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+  border-radius : 5px ;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #4CAF50;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">Hollywood</a></li>
+  <li><a href="#contact">Bollywood</a></li>
+  <li><a href="#about">SouthIndian</a></li>
+</ul>
    
   </div>
 </div>
